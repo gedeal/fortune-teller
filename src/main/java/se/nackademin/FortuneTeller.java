@@ -60,8 +60,6 @@ public class FortuneTeller {
                 + "\n************\n";
         
         System.out.println(answer);
-        
-        
         return answer;
     }
 
