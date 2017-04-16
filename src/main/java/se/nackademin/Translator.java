@@ -26,7 +26,8 @@ public class Translator {
             valAdjektiv.add("FEL");       //#10
             
             Adjektiv = valAdjektiv.get(seq);     
-          //          System.out.println("Adjektiv: "+ Adjektiv); 
+          //          
+          System.out.println("Adjektiv: "+ Adjektiv); 
            return Adjektiv;
             
     }
@@ -48,7 +49,8 @@ public class Translator {
             valSubstantiv.add("FEL");                   //      #10
             
             Substantiv = valSubstantiv.get(seq);     
-          //          System.out.println("Substantiv: "+ Substantiv); 
+          //          
+          System.out.println("Substantiv: "+ Substantiv); 
            return Substantiv;
     }
         
