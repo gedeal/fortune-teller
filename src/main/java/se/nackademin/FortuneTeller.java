@@ -57,7 +57,7 @@ public class FortuneTeller {
                 + ", Vi ser att du snart kommer att skaffa "+Substantiv_1
                 + "\nSnart kommer du vilja "+verb_2
                 + " men då är det viktigt att du är "+Adjektiv_2
-                + "\n************\n";
+                + "\n****GERSON*******\n";
         
         System.out.println(answer);
         return answer;
