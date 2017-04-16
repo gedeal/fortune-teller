@@ -17,7 +17,8 @@ public class MagicNumbers {
     //A = (words.length); 
 //1. Beräkna antalet namn (här: antalet mellanslag i namnet + 1)        
         String[] split = name.split( " " );
-        //System.out.println( "Split : "+split.length ); 
+        //
+        System.out.println( "Split : "+split.length ); 
         int A=(split.length);
 //2. Lägg till kundens ålder       
         A= A + age;
@@ -28,7 +29,6 @@ public class MagicNumbers {
          // System.out.println("Value of A is : "+ A ); 
             A= A-7;
         }
-       // JOptionPane.showMessageDialog(null,"Herbeet frans");  
         return A;
     }
 
